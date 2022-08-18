@@ -1,0 +1,28 @@
+.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 86px;
+    z-index:10;
+    text-align: center;
+    li{
+        display: inline-block;
+    }
+    [class^=icon]{
+        vertical-align: middle;
+        margin: 0 17px;
+        cursor: pointer;
+    }
+}
+.selectCarBtn{
+    display: inline-block;
+    width: 240px;
+    height: 84px;
+    background-color:$color-main;
+    border-radius: 100px;
+    line-height: 84px;
+    margin: 0 17px;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
